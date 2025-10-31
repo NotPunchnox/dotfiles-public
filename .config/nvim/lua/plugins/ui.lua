@@ -172,4 +172,12 @@ return {
 			},
 		},
 	},
+
+	-- Discord Rich Presence
+	{
+		"andweeb/presence.nvim",
+		config = function()
+			require("config.presence-config")
+		end,
+	},
 }
