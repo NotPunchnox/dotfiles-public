@@ -23,6 +23,11 @@ return {
 				"svelte",
 			},
 
+			highlighting = {
+				enable = true,
+				additional_vim_regex_highlighting = false,
+			}
+
 			-- matchup = {
 			-- 	enable = true,
 			-- },
